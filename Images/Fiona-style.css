@@ -1,0 +1,130 @@
+p {
+	font-family: helvetica;
+	font-size: 16px;
+	color: #787E80;
+	line-height: 1.5;
+	text-align: center;
+	width: 320px;
+}
+body {
+	width: 1100px;
+}
+
+.header {	
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: flex;
+	-webkit-justify-content: space-between;	
+	box-shadow: 50px;
+}
+.box_shadow {
+	box-shadow: 0px 20px 60px 10px #EBE8E7;
+}
+.headeractions {
+	display: -webkit-flex;
+	-webkit-align-items: center;	
+}
+.navigation {
+	font-size: 16px;
+	padding-right: 50px;
+	color: #FF9D80;
+	font-family: helvetica;
+	text-decoration: none;
+}
+.navigation--services {
+	font-size: 16px;
+	padding-right: 50px;
+	color: black;
+	font-family: helvetica;
+	text-decoration: none;
+}
+.navigation--book {
+	font-size: 16px;
+	padding-right: 25px;
+	padding-left: 25px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-radius: 12px;
+	color: white;
+	font-family: helvetica;
+	text-decoration: none;
+	background-color: #FF9D80;
+}
+.massage_headline {
+	padding-top: 40px;
+	padding-bottom: 16px;
+	font-size: 18px;
+	font-family: helvetica;
+	text-align: center;
+	color: #FF9D80;
+}
+.massage_pic {
+	height: 220px;
+	width: 320px;		
+}
+.scroll {
+	margin: auto;
+	display: block;
+	width: 60%;
+}
+.massages {
+	padding-top: 100px;
+	width: 100%;
+	display: flex;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.more_massages {
+	padding-top: 100px;
+	width: 100%;
+	display: flex;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+.massage_type {
+	padding-right: 40px;
+}
+.line {
+width: 100%;
+border-top: 1px 
+color: #929CA2;
+}
+.footer {
+	background-color: #FFFDEB;
+	padding-top: 50px;
+}
+.footerlogo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.contact_top {
+	display: flex;
+	align-items: center;
+}
+
+.contact_logo {
+	width: 40px;
+	height: 30px;
+}
+.contact {
+	padding-top: 50px;
+	padding-bottom: 10px;
+	margin-left: 100px;
+	margin-right: 100px;
+	display: flex;
+	-webkit-justify-content: space-between;	
+	box-shadow: 50px;
+}
+.contact_element {
+	display: flex;
+	align-items: flex-start;
+	font-family: helvetica;
+}
+.contact_header {
+	font-size: 16px;
+}
+.contact_deets {
+	color: gray;
+	font-size: 12px;
+}

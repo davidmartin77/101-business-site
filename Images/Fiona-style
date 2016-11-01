@@ -1,0 +1,18 @@
+.header {	
+	display: -webkit-flex;
+	-webkit-justify-content: space-between;	
+}
+.headeractions {
+	display: -webkit-flex;
+	-webkit-align-items: center;
+}
+.massage_headline {
+	font-size: 18px;
+	font-family: helvetica;
+	color: #FF9D80:;
+}
+.massage_pic {
+	height: 10px;
+	width: 18px;
+}
+

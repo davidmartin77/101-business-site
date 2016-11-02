@@ -102,6 +102,9 @@ body {
 	display: block;
 	width: 60%;
 }
+.salon_team {
+	font-family: "Merriweather";
+}
 .massages {
 	padding-top: 100px;
 	width: 100%;

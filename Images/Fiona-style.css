@@ -27,7 +27,7 @@ body {
 .navigation {
 	font-size: 16px;
 	padding-right: 50px;
-	color: #FF9D80;
+	color: #FB9696;
 	font-family: helvetica;
 	text-decoration: none;
 }
@@ -48,7 +48,7 @@ body {
 	color: white;
 	font-family: helvetica;
 	text-decoration: none;
-	background-color: #FF9D80;
+	background-color: #FB9696;
 }
 .massage_headline {
 	padding-top: 40px;
@@ -56,11 +56,32 @@ body {
 	font-size: 18px;
 	font-family: helvetica;
 	text-align: center;
-	color: #FF9D80;
+	color: #FB9696;
 }
+.masseuse_headline {
+	padding-top: 40px;
+	padding-bottom: 16px;
+	font-size: 22px;
+	font-family: helvetica;
+	text-align: center;
+	color: #FB9696;
+}
+.massage_title {
+	padding-top: 12px;
+	padding-bottom: 16px;
+	font-size: 12px;
+	font-family: helvetica;
+	text-align: center;
+	color: #D0D5D6;
+}
+
 .massage_pic {
 	height: 220px;
 	width: 320px;		
+}
+.masseuse_pic {
+	height: 320px;
+	width: 220px;
 }
 .scroll {
 	margin: auto;
@@ -90,7 +111,7 @@ border-top: 1px
 color: #929CA2;
 }
 .footer {
-	background-color: #FFFDEB;
+	background-color: #FCFBF4;
 	padding-top: 50px;
 }
 .footerlogo {

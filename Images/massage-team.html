@@ -6,6 +6,8 @@
 
 	<link rel="stylesheet" type="text/css" href="fiona-style.css">
 
+	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+
 </head>
 
 <body>	
@@ -26,19 +28,22 @@
 
 	<div class = "content">
 
-		<h1> Massage Team </h1>
+		<h1> Salon's Team </h1>
 
 		<div class = "masseuse_container">
 
 			<div class = "masseuse">
 
-				<img src="masseur-04.jpg" class="masseuse_pic">
+				<img src="masseurs-04.jpg" class="masseuse_pic">
 
 				<div class = "masseuse_headline"<>Mary Casserole</div> 
 
 				<div class = "massage_title">Salon Owner</div>
 
-				<p>Mary founded the salon with her own principal capital, which earned by working at other massage salon and saving money for her dream. It makes a statement about how powerful and independent individual she is! She is a strong believer in the healing and revitalizing power of the massage therapy...</p>  
+				<div class = "masseuse_text">
+
+				Mary founded the salon with her own principal capital, which earned by working at other massage salon and saving money for her dream. It makes a statement about how powerful and independent individual she is! She is a strong believer in the healing and revitalizing power of the massage therapy...
+				</div> 
 
 				<img src="facebooklogo" class="social-media">
 
@@ -50,13 +55,15 @@
 				
 			<div class = "masseuse">
 
-				<img src="masseur-03.jpg" class="masseuse_pic">
+				<img src="masseurs-03.jpg" class="masseuse_pic">
 
 				<div class = "masseuse_headline"<>Elisa Gray</div> 
 
 				<div class = "massage_title">Senior Masseur</div>
 
-				<p>Elisa's vast range of skill and knowledge lets her work with individuals seeking stress management and general relaxation... Her bag-of-tricks is filled with practical skills she applies to those therapeutic massages that we offer here.</p>  
+				<div class = "masseuse_text">
+				Elisa's vast range of skill and knowledge lets her work with individuals seeking stress management and general relaxation... Her bag-of-tricks is filled with practical skills she applies to those therapeutic massages that we offer here.
+				</div>  
 
 				<img src="facebooklogo" class="social-media">
 
@@ -67,20 +74,19 @@
 			
 			<div class = "masseuse">
 
-				<img src="masseur-02.jpg" class="masseuse_pic">
+				<img src="masseurs-02.jpg" class="masseuse_pic">
 
 				<div class = "masseuse_headline"<>Caroline Camille</div> 
 
 				<div class = "massage_title">Senior Masseur</div>
 
-				<p>Her favorite massage techniques include the "Deep Tissue Massage;" "Revitalizing Massage" and our all-time hit the full body "Swedish Massage" ...
+				<div class = "masseuse_text">
+				Her favorite massage techniques include the "Deep Tissue Massage;" "Revitalizing Massage" and our all-time hit the full body "Swedish Massage" ...
 
 				Not even once any of our clients had any kinds of complaints about her massage sessions! Quite oppositely, Caroline has the most positive reviews of us all! 
-				</p>		
-			</div>
-
-
-
+				</div>
+					
+		
 				<img src="facebooklogo" class="social-media">
 
 				<img src="twitterlogo" class="social-media">
@@ -91,13 +97,15 @@
 
 			<div class = "masseuse">
 
-				<img src="masseur-03.jpg" class="masseuse_pic">
+				<img src="masseurs-05.jpg" class="masseuse_pic">
 
 				<div class = "masseuse_headline"<>Kimberly Boyle</div> 
 
 				<div class = "massage_title">Junior Masseur</div>
 
-				<p>Being 24 years old, Kimberly is very knowledgeable and moves on providing top-notch type of relaxing massage, according to the highest standards, in a pleasant surrounding. It makes her one of our most valuable team members ever, despite her young age.</p>  
+				<div class = "masseuse_text">
+				Being 24 years old, Kimberly is very knowledgeable and moves on providing top-notch type of relaxing massage, according to the highest standards, in a pleasant surrounding. It makes her one of our most valuable team members ever, despite her young age.
+				</div>
 
 				<img src="facebooklogo" class="social-media">
 
@@ -106,8 +114,29 @@
 				<img src="googlepluslogo" class = "social-media">
 			</div>
 
+		</div>	
 
-	</div>		
+<div class = contact>
+
+	<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+		<div class="row">
+		<label for="name">Your name *</label><br />
+		<input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+		<label for="subject">Subject</label><br/>
+		<input id="subject" class="input" name="subject" type="text" value="" size="30" /><br />
+		
+	<div class="row">
+		<label for="email">Email address *</label><br />
+		<input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+	</div>
+	<div class="row">
+		<label for="message">Your message *</label><br />
+		<textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+	</div>
+	<input id="submit_button" type="submit" value="Send email" />
+
+</form>						
+
 
 
 

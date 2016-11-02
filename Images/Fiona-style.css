@@ -126,10 +126,14 @@ body {
 .massage_type {
 	padding-right: 40px;
 }
-.line {
-width: 100%;
-border-top: 1px 
-color: #929CA2;
+.contact {
+	display: flex;
+	justify-content: space-around; 
+}
+.row {
+	padding-bottom: 30px;
+	height: 16px;
+	border-radius: 5px;
 }
 .footer {
 	background-color: #FCFBF4;

@@ -30,39 +30,29 @@ body {
 	padding-bottom: 10px;
 	display: flex;
 	-webkit-justify-content: space-between;	
-	box-shadow: 50px;
-}
-.box_shadow {
 	box-shadow: 0px 20px 60px 10px #EBE8E7;
 }
-.headeractions {
+.navigation {
 	display: -webkit-flex;
 	-webkit-align-items: center;	
 }
-.navigation {
+.navigation__link {
 	font-size: 16px;
 	padding-right: 50px;
 	color: #FB9696;
 	font-family: helvetica;
 	text-decoration: none;
 }
-.navigation--services {
-	font-size: 16px;
-	padding-right: 50px;
+.navigation__link--services {
 	color: black;
-	font-family: helvetica;
-	text-decoration: none;
 }
-.navigation--book {
-	font-size: 16px;
+.navigation__link--book {
 	padding-right: 25px;
 	padding-left: 25px;
 	padding-top: 5px;
 	padding-bottom: 5px;
 	border-radius: 12px;
 	color: white;
-	font-family: helvetica;
-	text-decoration: none;
 	background-color: #FB9696;
 }
 .massage_headline {

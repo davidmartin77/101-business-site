@@ -115,13 +115,24 @@ ul {
 .massage {
 	padding-right: 40px;
 }
-/*.contact {*/
-	/*display: flex;*/
-	/*justify-content: space-around; */
+.contact {
+	display: flex;
+	justify-content: space-around;
 }
 .contactform {
 	display: flex;
+	flex-direction: column;
 }
+.contactform__namesubject {
+	display: flex;	
+}
+.halfwidth {
+	width: 50%;
+} 
+.halfwidth input {
+	width: 100%;
+}
+
 .Contactform__header {
 	font-size: 24px;
 }

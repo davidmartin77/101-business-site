@@ -12,19 +12,19 @@
 
 <body>	
 
-	<div class = "header box_shadow">
+<div class = "header">
 		
-		<img src="logo.png" height="50px," width="100px" class="logo">
+		<img src="logo.png">
 
-			<div class = "headeractions">
-				<a href="xxxx" class = "navigation">Home</a>
-				<a href="xxxx" class = "navigation">Pricing</a>
-				<a href="xxxx" class = "navigation">Masseurs</a>
-				<a href="xxxx" class = "navigation--services">Services</a>
-				<a href="xxxx" class = "navigation">Contacts</a>
-				<a href="xxxx" class = "navigation--book">Book an appointment</a>
-			</div>	
-	</div>	
+		<div class = "navigation">
+			<a href="xxxx" class = "navigation__link">Home</a>
+			<a href="xxxx" class = "navigation__link">Pricing</a>
+			<a href="xxxx" class = "navigation__link">Masseurs</a>
+			<a href="xxxx" class = "navigation__link navigation__link--services">Services</a>
+			<a href="xxxx" class = "navigation__link">Contacts</a>
+			<a href="xxxx" class = "navigation__link navigation__link--book">Book an appointment</a>
+		</div>
+</div>		
 
 	<div class = "content">
 
@@ -38,7 +38,7 @@
 
 				<div class = "masseuse_headline"<>Mary Casserole</div> 
 
-				<div class = "massage_title">Salon Owner</div>
+				<div class = "masseuse_title">Salon Owner</div>
 
 				<div class = "masseuse_text">
 
@@ -59,7 +59,7 @@
 
 				<div class = "masseuse_headline"<>Elisa Gray</div> 
 
-				<div class = "massage_title">Senior Masseur</div>
+				<div class = "masseuse_title">Senior Masseur</div>
 
 				<div class = "masseuse_text">
 				Elisa's vast range of skill and knowledge lets her work with individuals seeking stress management and general relaxation... Her bag-of-tricks is filled with practical skills she applies to those therapeutic massages that we offer here.
@@ -78,7 +78,7 @@
 
 				<div class = "masseuse_headline"<>Caroline Camille</div> 
 
-				<div class = "massage_title">Senior Masseur</div>
+				<div class = "masseuse_title">Senior Masseur</div>
 
 				<div class = "masseuse_text">
 				Her favorite massage techniques include the "Deep Tissue Massage;" "Revitalizing Massage" and our all-time hit the full body "Swedish Massage" ...
@@ -101,7 +101,7 @@
 
 				<div class = "masseuse_headline"<>Kimberly Boyle</div> 
 
-				<div class = "massage_title">Junior Masseur</div>
+				<div class = "masseuse_title">Junior Masseur</div>
 
 				<div class = "masseuse_text">
 				Being 24 years old, Kimberly is very knowledgeable and moves on providing top-notch type of relaxing massage, according to the highest standards, in a pleasant surrounding. It makes her one of our most valuable team members ever, despite her young age.
@@ -115,121 +115,105 @@
 			</div>
 
 		</div>	
+	</div>	
 
-<div class = contact>
+<ul class = "contactform">
 
-	<form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
-		<div class="row">
-		<label for="name">Your name *</label><br />
-		<input id="name" class="input" name="name" type="text" value="" size="60" /><br />
-		<label for="subject">Subject</label><br/>
-		<input id="subject" class="input" name="subject" type="text">
+<h1 class="Contactform__header">Contact Us</h1>
 
-	<div class="row">
-		<label for="email">Email address *</label><br />
-		<input id="email" class="input" name="email" type="text">
+	<form>
+		<ul class="contactform">
+			<li>
+				<label for="Name">Your name * </label> 
+				<input type="text" id="name">
+			</li>
 
-	</div>
-	<div class="row">
-		<label for="message">Your message *</label><br />
-		<textarea id="message" class="input" name="message">		
-	</div>
-	<input id="submit_button" type="submit" value="Send email" />
+			<li>
+				<label for="Subject">Subject</label>
+				<input type="text" name="subject"></br>
+			</li>
 
-</form>						
+			<li> 
+				<label for="Email">Email address *</label>
+				<input type="text" id="Email">
+			</li>
 
+		<ul class="contactform--yourmessage">
+			<li> 
+				<label for="Message">Your message *</label>
+				<input type="text" id="message">
+			</li>	
+		</ul>
+					
+	</form>						
 
-
-
-
+</div>
 <div class = "footer">	
 
-		<img src="logo.png" height="100px," width="200px" class="footerlogo">
+		<img src="logo.png">
 
 		<div class="contact">
 
-			<div class="contact_element">
+			<div class="contactAction">
 
-				<img src="phone.png" class="contact_logo">
+				<img src="phone.png" class="contactAction_logo">
+
+				<ul>
+					<li class = "contact_header">Call Today</li>
+					<li class="contact_deets">555-123-5353</li>
+					<li class="contact_deets">555-123-2323</li>
+				</ul>
 				
-				<div class = contact_container> 
-
-					<div class = "contact_header">
-						Call Today
-					</div>
-					
-					<div class="contact_deets">
-						<div class = "line">
-							555-123-5353
-						</div>
-						<div class = "line">
-							555-123-2323
-						</div>	
-					</div>
-
-				</div>
 			</div>		
 
-			<div class="contact_element">
+			<div class="contactAction">
 
-				<img src="envelope.png" class="contact_logo">
+				<img src="envelope.png" class="contactAction_logo">
 
-				<div class = contact_container> 
+				<ul> 
+					<li class = "contact_header">
+						E-mail</li>
+					<li class="contact_deets--email">
+						info@demolink.org </li>
+					<li class="contact_deets"></li>	
+				</ul>	
 
-					<div class = "contact_header">
-						E-mail
-					</div>
+			</div>				
 
-					<div class="contact_deets">
-						info@demolink.org
-					</div>
+			<div class="contactAction">
 
-				</div>		
-			</div>		
+				<img src="map.png" class="contactAction_logo">
 
-			<div class="contact_element">
-
-				<img src="map.png" class="contact_logo">
-
-				<div class = contact_container> 
-
-					<div class = "contact_header">Address</div>
-
-					<div class="contact_deets">
-						<div class="line">
-						1163 N State St, Chicago
-						</div>
-						<div class ="line">
-						IL 60610, United States
-						</div>
-						
-					</div>	
-				</div>
-			</div>
-					
-			<div class="contact_element">
-			
-				<img src="clock.png" class="contact_logo">
-
-				<div class = contact_container> 
-
-					<div class = "contact_header">
-						Open Hours	
-					</div>
-
-					<div class="contact_deets">	
-						<div class = "line">
-							Mon-Fri: 9am-6pm;
-						</div>
-						<div class = "line">	
-						Sun: 10am-1pm
-						</div>	
-					</div>	
-				</div>		
+				<ul> 
+					<li class = "contact_header">Address</li>
+					<li class="contact_deets">
+						1163 N State St, Chicago </li>
+					<li class="contact_deets">	
+						IL 60610, United States </li>
+				</ul>			
+								
 			</div>	
+					
+			<div class="contactAction">
+			
+				<img src="clock.png" class="contactAction_logo">
 
-		</div>
+				<ul>
+					<li class = "contact_header">
+						Open Hours </li>
+					<li class = "contact_deets">
+						Mon-Fri: 9am-6pm; </li>
+					<li class = "contact_deets">
+						Sun: 10am-1pm </li>
+				</ul>		
+			</div>	
+		
+		</div>	
+
 	</div>		
+
+
+
 </body>
 </html>
 

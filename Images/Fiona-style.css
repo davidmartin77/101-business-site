@@ -4,7 +4,6 @@ p {
 	color: #787E80;
 	line-height: 1.5;
 	text-align: center;
-	width: 320px;
 }
 h1 {
 	font-family: helvetica serif;
@@ -258,7 +257,13 @@ ul {
 .deals--opposite {
 	background-color: #FB9696
 }
+<<<<<<< HEAD
 
+=======
+.deals__headline--opposite {
+	color: white;
+}
+>>>>>>> 6556d0e34cc3ea6fe2e50cf4054eadb93b583381
 .deals__headline {
 	font-family: helvetica;
 	font-size: 24px;
@@ -274,8 +279,6 @@ ul {
 }
 .deals__headline--opposite {
 	color: white;
-	text-align: center;
-	font-size: 24px;
 }
 .deals__price {
 	font-size: 56px;
@@ -283,9 +286,7 @@ ul {
 	text-align: center;
 }
 .deals__price--opposite {
-	font-size: 56px;
 	color: white;
-	text-align: center;
 }
 .deals__disclaimer {
 	font-size: 12px;
@@ -293,9 +294,7 @@ ul {
 	text-align: center;
 }
 .deals__disclaimer--opposite {
-	font-size: 12px;
 	color: white;
-	text-align: center;
 }
 .callNow {
 	text-align: center;

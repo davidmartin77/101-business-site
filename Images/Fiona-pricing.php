@@ -31,12 +31,12 @@
 		 >Book an appointment</a>
 	</div>	 
 
-	<div class = "deals--opposite">
-		<h1 class = "deals__headline--opposite">Intensive Massage Sessions</h1>
+	<div class = "deals deals--opposite">
+		<h1 class = "deals__headline deals__headline--opposite">Intensive Massage Sessions</h1>
 
-		<h1 class = "deals__price--opposite">$400</h1>
-		<h1 class = "deals__disclaimer--opposite">4 sessions</h1>
-		<p class = "deals__description--opposite">This massage category is our most popular one and for good reason. It gives you a completely refreshing experience.</p>
+		<h1 class = "deals__price deals__price--opposite">$400</h1>
+		<h1 class = "deals__disclaimer deals__disclaimer--opposite">4 sessions</h1>
+		<p class = "deals__description deals__description--opposite">This massage category is our most popular one and for good reason. It gives you a completely refreshing experience.</p>
 		<a href="xxxx" class = "deals__book navigation__link--book">
 		 >Book an appointment</a>
 	</div>	 

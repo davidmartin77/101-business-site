@@ -22,10 +22,10 @@
 
 		<div class = "navigation">
 			<a href="xxxx" class = "navigation__link">Home</a>
-			<a href="xxxx" class = "navigation__link">Pricing</a>
-			<a href="xxxx" class = "navigation__link">Masseurs</a>
-			<a href="xxxx" class = "navigation__link navigation__link--services">Services</a>
-			<a href="xxxx" class = "navigation__link">Contacts</a>
+			<a href="fiona-pricing.php" class = "navigation__link">Pricing</a>
+			<a href="massage-team.php" class = "navigation__link">Masseurs</a>
+			<a href="fiona-index.php" class = "navigation__link navigation__link--services">Services</a>
+			<a href="fiona-contact.php" class = "navigation__link">Contacts</a>
 			<a href="xxxx" class = "navigation__link navigation__link--book">Book an appointment</a>
 		</div>
 </div>	

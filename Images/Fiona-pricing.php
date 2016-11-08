@@ -51,7 +51,56 @@
 		 >Book an appointment</a>
 	</div>	
 
-	<div class = 
+	<div class = "callNow">
+
+		<p class = "callNow__text"> Call now to book a relaxing massage session</p>
+
+			<div class = "callNow__phone">
+
+				<i class = "fa fa-phone CallNow__logo"></i>
+
+				<p class = "callNow__number">555-123-2322></p>
+
+			</div>
+
+			<div class = "callNow__servicecost">
+
+				<p class = "servicecost__text">Service Cost></p>
+
+				<p class = "servicecost__price">$99.00</p>
+
+			</div>	
+
+			<div class = "callNow__duration">
+
+				<p class = "duration__text">Duration</p> 
+
+				<p class = "duration__time">1h 20m></p>
+			
+			</div>
+
+	<div class = customers>
+	
+		<h1 class = "customers__say">What our customers say:</h1>
+
+		<img src = 	"quote.png">
+
+		<p class = "customers__men">Men rarely acknowledge how much they love to get a massage ... But I want to say without my afterwork Friday massage sessions here my productivity would have been so much lower.</p>
+
+		<p class = "customers__Rhode">Rhode Gentlebear></p>
+
+	</div>
+			
+				
+
+
+
+
+
+
+
+
+
 
 <!-- separate container holding contact info
 followed by a container holding happy customer quote

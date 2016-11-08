@@ -7,10 +7,8 @@ p {
 	width: 320px;
 }
 h1 {
-	padding-top: 30px;
 	font-family: helvetica serif;
 	font-size: 36px;
-	text-align: center;
 	font-weight: lighter;
 }
 body {
@@ -24,6 +22,18 @@ ul {
 	font: inherit;
 	vertical-align: baseline;
 	list-style: none;
+}
+.currentpage {
+	font: black;
+}
+
+.contentWrapper {
+	display: flex;
+	width: 100%;
+}
+
+.findus {
+	padding-top: 20px;
 }
 .masseuse_text {
 	font-family: helvetica;
@@ -41,6 +51,14 @@ ul {
 	-webkit-justify-content: space-between;	
 	box-shadow: 0px 20px 60px 10px #EBE8E7;
 }
+.location {
+	display: flex;
+	max-width: 100%;
+	padding-top: 50px;
+}
+.location__map {
+	
+}
 .navigation {
 	display: -webkit-flex;
 	-webkit-align-items: center;	
@@ -50,12 +68,22 @@ ul {
 	padding-right: 50px;
 	color: #FB9696;
 	font-family: helvetica;
-	text-decoration: none;
+	text-decoration: none;		
+
 }
-.navigation__link--services {
+#currentpage {
 	color: black;
 }
-.navigation__link--book {
+	
+/*.navigation__link--services {*/
+	/*color: black;*/
+}
+.button {
+	font-size: 16px;
+	padding-right: 50px;
+	color: #FB9696;
+	font-family: helvetica;
+	text-decoration: none;
 	padding: 5px 25px;
 	border-radius: 12px;
 	color: white;
@@ -91,6 +119,9 @@ ul {
 	height: 240px;
 	width: 260px;
 }
+.social-media {
+	color: #FB9696;
+}
 .massage_scroll {
 	margin: auto;
 	display: block;
@@ -122,6 +153,10 @@ ul {
 .contactform {
 	display: flex;
 	flex-direction: column;
+	font-family: helvetica;
+	font-size: 12px;
+	line-height: 2.5;
+	width: 100%;
 }
 .contactform__namesubject {
 	display: flex;	
@@ -130,26 +165,42 @@ ul {
 	width: 50%;
 } 
 .halfwidth input {
+	width: 96%;
+}
+.formInput {
+	background-color: #F2F2F2;
+	border-radius: 10px;
+	padding-bottom: 16px;
+	border: none;
+}
+.formcontainer {
 	width: 100%;
 }
 
 .Contactform__header {
 	font-size: 24px;
+	text-align: center;
 }
-.Contactform--yourmessage {
+.contactform__yourmessage input {
 	width: 100%;
-    height: 150px;
-    padding: 12px 20px;
-    box-sizing: border-box;
-    border: 2px solid #ccc;
-    border-radius: 4px;
-    background-color: #f8f8f8;
-    resize: none;
-
-/*.row {*/
-	/*padding-bottom: 30px;*/
-	/*height: 16px;*/
-	/*border-radius: 5px;*/
+	padding-bottom: 300px;
+}
+.contactform__send {
+	font-size: 12px;
+	color: white;
+	text-align: center;
+	background-color: #FB9696;
+	border-radius: 20px;
+	border: none;
+	width: 10%;
+	margin-top: 5px;
+	padding: 10px;
+}
+.contactcolumn {
+	display: flex;
+	flex-direction: column;
+	margin-right: 150px;
+	width: 296px;
 }
 .footer {
 	background-color: #FCFBF4;
@@ -169,7 +220,10 @@ ul {
 	display: flex;
 	align-items: flex-start;
 	font-family: helvetica;
+	padding-top: 20px;
+	line-height: 1.5;
 }
+
 .contact_top {
 	display: flex;
 	align-items: center;
@@ -177,6 +231,7 @@ ul {
 .contactAction_logo {
 	width: 40px;
 	height: 30px;
+	color: #FB9696;
 }
 .contact_header {
 	font-size: 16px;
@@ -189,4 +244,5 @@ ul {
 	color: #FB9696;
 	font-size: 12px;
 	font-weight: bold;
+
 }

@@ -22,7 +22,7 @@
 <div class = "dealsContainer">
 	
 	<div class = "deals">
-		<h1 class = "deals__headline">Pre &amp; post natal Massages </h1>
+		<h3 class = "deals__headline">Pre &amp; post natal Massages </h3>
 
 		<h1 class = "deals__price">$300</h1>
 		<h1 class = "deals__disclaimer">4 sessions</h1>
@@ -32,7 +32,7 @@
 	</div>	 
 
 	<div class = "deals deals--opposite">
-		<h1 class = "deals__headline deals__headline--opposite">Intensive Massage Sessions</h1>
+		<h3 class = "deals__headline deals__headline--opposite">Intensive Massage Sessions</h3>
 
 		<h1 class = "deals__price deals__price--opposite">$400</h1>
 		<h1 class = "deals__disclaimer deals__disclaimer--opposite">4 sessions</h1>
@@ -42,7 +42,7 @@
 	</div>	 
 
 	<div class = "deals">
-		<h1 class = "deals__headline">Extravagent and fun-spirited</h1>
+		<h3 class = "deals__headline">Extravagent and fun-spirited</h3>
 
 		<h1 class = "deals__price">$500</h1>
 		<h1 class = "deals__disclaimer">4 sessions</h1>

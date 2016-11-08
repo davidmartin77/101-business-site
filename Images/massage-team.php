@@ -3,33 +3,22 @@
 
 <?php
 	$thisPage="Masseurs";
+	?>
 
 <head>
-<title> Fiona Massage </title>
+<title> Massage-Team</title>
 
 	<link rel="stylesheet" type="text/css" href="fiona-style.css">
 
 	<link rel="stylesheet" type="text/css" href="./css/font-awesome.css">
 
-	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
-
 </head>
-
 <body>	
 
-<div class = "header">
-		
-		<img src="logo.png">
+<?php 
+	include 'header.php';
+	?>
 
-		<div class = "navigation">
-			<a href="xxxx" class = "navigation__link">Home</a>
-			<a href="xxxx" class = "navigation__link">Pricing</a>
-			<a href="xxxx" class = "navigation__link">Masseurs</a>
-			<a href="xxxx" class = "navigation__link navigation__link--services">Services</a>
-			<a href="xxxx" class = "navigation__link">Contacts</a>
-			<a href="xxxx" class = "navigation__link navigation__link--book">Book an appointment</a>
-		</div>
-</div>		
 
 	<div class = "content">
 
@@ -155,71 +144,11 @@
 			</form>	
 			</div>		
 
-<div class = "footer">	
 
-		<img src="logo.png">
+	<?php
+		include 'footer.php'
+		?>
+	
 
-		<div class="contact">
-
-			<div class="contactAction">
-
-				<i  class="fa fa-phone  contactAction_logo"></i>
-
-				<ul>
-					<li class = "contact_header">Call Today</li>
-					<li class="contact_deets">555-123-5353</li>
-					<li class="contact_deets">555-123-2323</li>
-				</ul>
-				
-			</div>		
-
-			<div class="contactAction">
-
-				<i class="fa fa-envelope-o contactAction_logo"></i>
-
-				<ul> 
-					<li class = "contact_header">
-						E-mail</li>
-					<li class="contact_deets--email">
-						info@demolink.org </li>
-					<li class="contact_deets"></li>	
-				</ul>	
-
-			</div>				
-
-			<div class="contactAction">
-
-				<i class="fa fa-map-o
-				contactAction_logo"></i>
-
-				<ul> 
-					<li class = "contact_header">Address</li>
-					<li class="contact_deets">
-						1163 N State St, Chicago </li>
-					<li class="contact_deets">	
-						IL 60610, United States </li>
-				</ul>			
-								
-			</div>	
-					
-			<div class="contactAction">
-			
-				<i class="fa fa-clock-o contactAction_logo"></i>
-
-				<ul>
-					<li class = "contact_header">
-						Open Hours </li>
-					<li class = "contact_deets">
-						Mon-Fri: 9am-6pm; </li>
-					<li class = "contact_deets">
-						Sun: 10am-1pm </li>
-				</ul>		
-			</div>	
-		
-		</div>	
-
-	</div>		
-
-<?php include("navigation.php"); ?>
 </body>
 </html>

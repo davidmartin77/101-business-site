@@ -31,12 +31,12 @@
 		 >Book an appointment</a>
 	</div>	 
 
-	<div class = "deals">
-		<h1 class = "deals__headline">Intensive Massage Sessions</h1>
+	<div class = "deals--opposite">
+		<h1 class = "deals__headline--opposite">Intensive Massage Sessions</h1>
 
-		<h1 class = "deals__price">$400</h1>
-		<h1 class = "deals__disclaimer">4 sessions</h1>
-		<p class = "deals__description">This massage category is our most popular one and for good reason. It gives you a completely refreshing experience.</p>
+		<h1 class = "deals__price--opposite">$400</h1>
+		<h1 class = "deals__disclaimer--opposite">4 sessions</h1>
+		<p class = "deals__description--opposite">This massage category is our most popular one and for good reason. It gives you a completely refreshing experience.</p>
 		<a href="xxxx" class = "deals__book navigation__link--book">
 		 >Book an appointment</a>
 	</div>	 
@@ -50,6 +50,7 @@
 		<a href="xxxx" class = "deals__book navigation__link--book">
 		 >Book an appointment</a>
 	</div>	
+</div>	
 
 	<div class = "callNow">
 
@@ -78,7 +79,7 @@
 				<p class = "duration__time">1h 20m></p>
 			
 			</div>
-
+		</div>	
 	<div class = customers>
 	
 		<h1 class = "customers__say">What our customers say:</h1>
@@ -90,7 +91,7 @@
 		<p class = "customers__Rhode">Rhode Gentlebear></p>
 
 	</div>
-			
+
 				
 
 

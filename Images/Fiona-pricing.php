@@ -61,35 +61,43 @@
 
 	<div class = "callNow">
 
-		<p class = "callNow__text"> Call now to book a relaxing massage session!</p>
+		<h2 class = "callNow__text"> Call us now to book a relaxing massage session!</h2>
+	</div>	
 
-			<div class = "callNow__phone">
+		<div class = "callNow__phone">
 
-				<i class = "fa fa-phone CallNow__logo"></i>
+		<i class = "fa fa-phone CallNow__logo"></i>	
 
-				<p class = "callNow__number">555-123-2322</p>
+		<span class = "callNow__number">555-123-2322</span>
 
-			</div>
+		</div>
+	</div>
 
 			<div class = "callNow__servicecost">
 
-				<p class = "servicecost__text">Service Cost</p>
+			<span class = "servicecost__text">Service Cost</span>
 
-				<p class = "servicecost__price">$99.00</p>
+			<span class = "servicecost__price">$99.00</span>
 
 			</div>	
 
-			<div class = "callNow__duration">
+		<div class = "callNow__duration">
 
-				<p class = "duration__text">Duration</p> 
+			<span class= "servicecost__text"> Service Cost</span>
 
-				<p class = "duration__time">1h 20m</p>
-			
-			</div>
-		</div>	
+			<span class= "CallNow__price"></span>
+
+		</div>
+
+	<div class = duration>
 		
-		<div class = "customersContainer">
+			<span class = "duration__text">Duration <em> 1h 20m </em></span> 
+			
+	</div>
+</div>
+</div>	
 
+		
 			<div class = "customers">
 
 				<h1 class = "customers__say">What our happy customers say:</h1>
@@ -100,7 +108,7 @@
 
 				<p class = "customers__Rhode">Rhode Gentlebear</p>
 			</div>
-		</div>	
+
 	<div class = "listservices">
 
 		<p> SERVICES HERE </p>
@@ -111,7 +119,7 @@
 <?php
 		include 'footer.php'
 		?>
-
+</body>
 				
 
 

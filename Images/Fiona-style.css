@@ -395,7 +395,7 @@ ul {
 .SeeAllServices {
 	max-width: 118px;
 	font-size: 16px;
-	padding-right: 50px;
+	padding-right: 0 50px 50px 0;
 	color: #FB9696;
 	font-family: helvetica;
 	text-decoration: none;
@@ -404,4 +404,15 @@ ul {
 	color: white;
 	background-color: #FB9696;
 	margin: auto;
+	margin-bottom: 50px;
+}
+.customMassage {
+	display: flex;
+}
+.customMassage__pic {
+	width: 100%;
+	height: 25%;
+}
+.customMassage__text {
+	text-align: center
 }

@@ -11,11 +11,10 @@ h1 {
 	font-weight: lighter;
 }
 h2 {
-	font-family: merryweather;
+	font-family: Merriweather;
 	font-size: 24px;
 	color: #1F3740;
 	margin: auto;
-	padding-right: 140px;
 }
 h3 {
 	font-weight: normal;
@@ -160,7 +159,7 @@ ul {
 	display: block;
 }
 .salon_team {
-	font-family: "Merriweather";
+	font-family: Merriweather;
 }
 .massagesRow {
 	padding-top: 100px;
@@ -336,23 +335,47 @@ ul {
 .deals__book {
 	text-align: center;
 }
-/*.callNow__text {*/
-	/*font-size: 20px;*/
-	/*font-family: helvetica serif;*/
-	/*color: black;*/
-/*}*/
+
+.callNowContainer {
+	text-align: center;
+}
+
+.callNow__text {
+	color: #0A2450;
+	font-weight: lighter;
+}
 .CallNow__logo {
 	color:#FB9696;
-	min-width: 20px;
-	min-height: 20px;
 	border-color: #FB9696;
 	border-style: solid;
 	border-width: 2px;
-	padding: 6px 6px 6px 10px;
-	border-radius: 30px;
+	padding: 27px;
+	border-radius: 35px;
 }
 .callNow__number {
-	text-align: center;
+	color: #0A2450;
+	font-family: Merriweather;
+	display: inline-block;
+}
+.servicecost__text {
+	color: #0A2450;
+	font-family: Merriweather;	
+}
+.servicecost__price {
+	color: #0A2450;
+	font-family: Merriweather;	
+	font-size: 30px;	
+}
+.duration {
+	margin-top: 27px;
+}
+.duration__text {
+	color: #0A2450;
+	font-family: Helvetica;
+	font-size: 16px;	
+}
+.duration__text--bold {
+	font-weight: bold;
 }
 .customers {
 	background-color: #FCF2EB;
@@ -384,13 +407,13 @@ ul {
 }
 .servicesContainer {
 	display: flex;
-	justify-content: space-between;
 	margin-bottom: 30px;
 }
 .servicesPic {
-	height: 200px;
-	width: 200px;
-	border-radius: 100px;
+	display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
 }
 .SeeAllServices {
 	max-width: 118px;
@@ -405,6 +428,30 @@ ul {
 	background-color: #FB9696;
 	margin: auto;
 	margin-bottom: 50px;
+}
+
+.services__Swedish {
+	width: 200px;
+	height: 200px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 50%;
+}
+.services__Deep {
+	width: 200px;
+	height: 200px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 50%;
+	margin-left: 150px;
+}
+.listservices__types {
+	width: 200px;
+	height: 200px;
+	position: relative;
+	overflow: hidden;
+	border-radius: 50%;
+	margin-left: 150px;
 }
 .customMassage {
 	display: flex;

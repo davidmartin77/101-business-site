@@ -58,44 +58,35 @@
 		 	</div>	
 	</div>	
 </div>	
+	
+	<div class="callNowContainer">
+		<div class = "callNow">
 
-	<div class = "callNow">
-
-		<h2 class = "callNow__text"> Call us now to book a relaxing massage session!</h2>
-	</div>	
+			<h2 class = "callNow__text"> Call us now to book a relaxing massage session!</h2>
+		</div>	
 
 		<div class = "callNow__phone">
 
-		<i class = "fa fa-phone CallNow__logo"></i>	
+			<i class = "fa fa-phone CallNow__logo"></i>	
 
-		<span class = "callNow__number">555-123-2322</span>
+			<h1 class = "callNow__number">555-123-2322</h1>
 
 		</div>
-	</div>
 
-			<div class = "callNow__servicecost">
+		<div class = "callNow__servicecost">
 
 			<span class = "servicecost__text">Service Cost</span>
 
 			<span class = "servicecost__price">$99.00</span>
 
-			</div>	
+		</div>	
 
-		<div class = "callNow__duration">
-
-			<span class= "servicecost__text"> Service Cost</span>
-
-			<span class= "CallNow__price"></span>
-
-		</div>
-
-	<div class = duration>
-		
-			<span class = "duration__text">Duration <em> 1h 20m </em></span> 
+		<div class = duration>
 			
-	</div>
-</div>
-</div>	
+			<span class = "duration__text">Duration: <span class="duration__text--bold">1h 20m</span></span> 
+				
+		</div>
+	</div>	
 
 		
 			<div class = "customers">

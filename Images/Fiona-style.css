@@ -20,9 +20,9 @@ h3 {
 	font-weight: normal;
 	font-size: 24px;
 }
-body {
-	width: 1100px;
-}
+/*body {*/
+	/*width: 1100px;*/
+/*}*/
 ul {
 	margin: 0;
 	padding: 0;
@@ -76,7 +76,7 @@ ul {
 .navigation__link {
 	font-size: 16px;
 	padding-right: 50px;
-	color: #FB9696;
+	color: #FB907D;
 	font-family: helvetica;
 	text-decoration: none;		
 
@@ -87,23 +87,23 @@ ul {
 .navigation__link--book {
 	font-size: 16px;
 	padding-right: 50px;
-	color: #FB9696;
+	color: #FB907D;
 	font-family: helvetica;
 	text-decoration: none;
 	padding: 5px 25px;
 	border-radius: 12px;
 	color: white;
-	background-color: #FB9696;
+	background-color: #FB907D;
 }	
 .navigation__link--book--opposite {
 	font-size: 16px;
 	padding-right: 50px;
-	color: #FB9696;
+	color: #FB907D;
 	font-family: helvetica;
 	text-decoration: none;
 	padding: 5px 25px;
 	border-radius: 12px;
-	color: #FB9696;
+	color: #FB907D;
 	background-color: white;
 }
 
@@ -113,27 +113,27 @@ ul {
 .button {
 	font-size: 16px;
 	padding-right: 50px;
-	color: #FB9696;
+	color: #FB907D;
 	font-family: helvetica;
 	text-decoration: none;
 	padding: 5px 25px;
 	border-radius: 12px;
 	color: white;
-	background-color: #FB9696;
+	background-color: #FB907D;
 }
 .massage_headline {
 	padding: 40px 0 16px 0;
 	font-size: 18px;
 	font-family: helvetica;
 	text-align: center;
-	color: #FB9696;
+	color: #FB907D;
 }
 .masseuse_headline {
 	padding: 40px 0 6px 0;
 	font-size: 22px;
 	font-family: helvetica;
 	text-align: left;
-	color: #FB9696;
+	color: #FB907D;
 }
 .masseuse_title {
 	padding-bottom: 16px;
@@ -152,7 +152,7 @@ ul {
 	width: 260px;
 }
 .social-media {
-	color: #FB9696;
+	color: #FB907D;
 }
 .massage_scroll {
 	margin: auto;
@@ -221,7 +221,7 @@ ul {
 	font-size: 12px;
 	color: white;
 	text-align: center;
-	background-color: #FB9696;
+	background-color: #FB907D;
 	border-radius: 20px;
 	border: none;
 	width: 10%;
@@ -255,7 +255,6 @@ ul {
 	padding-top: 20px;
 	line-height: 1.5;
 }
-
 .contact_top {
 	display: flex;
 	align-items: center;
@@ -263,7 +262,7 @@ ul {
 .contactAction_logo {
 	width: 40px;
 	height: 30px;
-	color: #FB9696;
+	color: #FB907D;
 }
 .contact_header {
 	font-size: 16px;
@@ -273,7 +272,7 @@ ul {
 	font-size: 12px;
 }
 .contact_deets--email {
-	color: #FB9696;
+	color: #FB907D;
 	font-size: 12px;
 	font-weight: bold;
 
@@ -287,7 +286,7 @@ ul {
 	width: 250px;
 }
 .deals--opposite {
-	background-color: #FB9696
+	background-color: #FB907D;
 }
 
 .deals__headline--opposite {
@@ -301,14 +300,14 @@ ul {
 .deals__headline--opposite {
 	font-family: helvetica;
 	color: white;
-	background-color: #FB9696; 
+	background-color: #FB907D; 
 }
 .deals__headline--opposite {
 	color: white;
 }
 .deals__price {
 	font-size: 56px;
-	color: #FB9696;
+	color: #FB907D;
 	text-align: center;
 	margin-bottom: 0;
 }
@@ -345,12 +344,13 @@ ul {
 	font-weight: lighter;
 }
 .CallNow__logo {
-	color:#FB9696;
-	border-color: #FB9696;
+	color:#FB907D;
+	border-color: #FB907D;
 	border-style: solid;
 	border-width: 2px;
 	padding: 27px;
-	border-radius: 35px;
+	border-radius: 42px;
+	margin-right: 10px;
 }
 .callNow__number {
 	color: #0A2450;
@@ -378,7 +378,7 @@ ul {
 	font-weight: bold;
 }
 .customers {
-	background-color: #FCF2EB;
+	background-color: #F7EDE4;
 }
 .customers__say {
 	padding-top: 50px;
@@ -407,10 +407,11 @@ ul {
 }
 .servicesContainer {
 	display: flex;
+	justify-content: space-around;
 	margin-bottom: 30px;
 }
 .servicesPic {
-	display: inline;
+ display: inline;
   margin: 0 auto;
   height: 100%;
   width: auto;
@@ -418,14 +419,13 @@ ul {
 .SeeAllServices {
 	max-width: 118px;
 	font-size: 16px;
-	padding-right: 0 50px 50px 0;
-	color: #FB9696;
+	padding: 12px 20px 20px 14px;
+	color: #FB907D;
 	font-family: helvetica;
 	text-decoration: none;
-	padding: 7px 25px;
-	border-radius: 12px;
+	border-radius: 22px;
 	color: white;
-	background-color: #FB9696;
+	background-color: #FB907D;
 	margin: auto;
 	margin-bottom: 50px;
 }
@@ -454,12 +454,103 @@ ul {
 	margin-left: 150px;
 }
 .customMassage {
-	display: flex;
+	display: inline-block;
+	background-image: url("index-03.jpg");
 }
 .customMassage__pic {
+	position: relative;
 	width: 100%;
-	height: 25%;
 }
 .customMassage__text {
-	text-align: center
+	position: absolute; 
+	width: 100%;
+	top: 100px;
+	text-align: center;	
 }
+.picturebreakContainer {
+	width: 100%;
+	height: 400px;
+	background-image: url("index-05.jpg");
+	background-position: right;
+
+}
+.attributes {
+	display: flex;
+	justify-content: space-between;
+}
+.attributes__category {
+	display: inline-block;
+}
+.attributes__header {
+	margin-left: 100px;
+}
+.attributes__scroll {
+	margin: auto;
+}
+/*.attributes__header {*/
+	/*text-align: center;*/
+/*}*/
+/*.attributes__text {*/
+	/*text-align: center;*/
+/*}*/
+/*.attributes_scroll {*/
+	/*margin: auto;*/
+/*}*/
+
+.picturebreak {
+	position: absolute;
+	clip: rect(250px 1751px 580px 110px);
+	
+}
+span {
+	font-size: 36px;
+	color: gray;
+	margin: auto;
+}
+.calenderContainer {
+	margin-top: 75px;
+	margin-left: 250px;
+	margin-right: 180px;
+}
+
+.month {
+	font-size: 36px;
+	font-family: helvetica;
+	width: 100%;
+	margin: auto;
+}
+.month ul li {
+
+}
+.weekdays {
+    padding-top: 20px;
+ }
+ .weekdays li {
+ 	display: inline-block;
+ 	font-family: helvetica;
+ 	font-weight: bolder;
+ 	padding-top: 5px;
+ 	padding-bottom: 5px;
+ 	color: white;
+ 	font-size: 14px;
+ 	background-color: gray;
+ 	width: 13.6%;
+ 	text-align: left;
+ 	margin: auto;
+ }
+ .days {
+    padding: 10px 0;
+    margin: 0;
+}
+.days li {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: helvetica;
+    list-style-type: none;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #FB907D;
+}
+

@@ -67,7 +67,7 @@
 
 		<div class = "callNow__phone">
 
-			<i class = "fa fa-phone CallNow__logo"></i>	
+			<i class = "fa fa-phone fa-2x CallNow__logo"></i>	
 
 			<h1 class = "callNow__number">555-123-2322</h1>
 

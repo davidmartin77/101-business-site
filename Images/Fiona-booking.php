@@ -53,8 +53,8 @@ Fiona Booking
 	  	<li>6</li>
 	 	<li>7</li>
 	  	<li>8</li>
-	  	<li>9</li>
-	  	<li>10</li> 
+	  	<li><p class="booked">9</p></li>
+	  	<li><p class="booked">10</p></li> 
 	  	<li>11</li>
 	 	<li>12</li>
 		<li>13</li>

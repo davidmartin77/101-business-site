@@ -20,6 +20,11 @@ echo " id=\"currentpage\""; ?>>
 echo " id=\"currentpage\""; ?>>
 <a href="Fiona-Contact.php"></a></li>
 
+<li<?php if ($thisPage=="Fiona-booking")
+echo " id=\"currentpage\""; ?>>
+<a href="Fiona-booking.php"></a></li>
+
+
 
 </ul>
 </div>

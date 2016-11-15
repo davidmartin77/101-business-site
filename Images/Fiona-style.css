@@ -33,10 +33,6 @@ ul {
 	list-style: none;
 }
 
-.currentpage {
-	font: black;
-}
-
 .contentWrapper {
 	display: flex;
 	width: 100%;
@@ -81,9 +77,10 @@ ul {
 	text-decoration: none;		
 
 }
-#currentpage {
-	color: black;
+.navigation__link--currentpage {
+color: black;
 }
+
 .navigation__link--book {
 	font-size: 16px;
 	padding-right: 50px;
@@ -557,6 +554,12 @@ span {
     margin-bottom: 20px;
     color: #FB907D;
 }
+.days li:hover {
+	height: 65px;
+	width: 65px;
+	background-color: #021D4A;
+}
+
 .booked {
     font-size: 24px;
     font-weight: bold;
@@ -565,8 +568,8 @@ span {
 	color: #E0E3E7;
 	background-color: #EEEEEE;
 	padding-left: 4px;
-	height: 80px;
-	width: 80px;
+	height: 65px;
+	width: 65px;
 }
 
 

@@ -21,45 +21,35 @@
 		<img src="logo.png">
 
 		<div class = "navigation">
-			<a href="xxxx" class = "navigation__link">Home</a>
-			<a href="fiona-pricing.php" class = "navigation__link">Pricing</a>
-			<a href="massage-team.php" class = "navigation__link">Masseurs</a>
-			<a href="fiona-index.php" class = "navigation__link navigation__link--services">Services</a>
-			<a href="fiona-contact.php" class = "navigation__link">Contacts</a>
-			<a href="xxxx" class = "navigation__link navigation__link--book">Book an appointment</a>
+			<a href="Fiona-home.php" class = "navigation__link <?php 
+			if ($thisPage == "Fiona-home") {
+				echo "navigation__link--currentpage";}?> ">Home</a>
+
+			<a href="fiona-pricing.php" class = "navigation__link <?php 
+			if ($thisPage == "Fiona-Pricing") { echo "navigation__link--currentpage";}?> ">
+			Pricing</a>
+
+			<a href="massage-team.php" class = "navigation__link <?php 
+			if ($thisPage == "Masseurs") {
+				echo "navigation__link--currentpage";}?> ">Masseurs</a>
+
+			<a href="fiona-index.php" class = "navigation__link <?php 
+			if ($thisPage == "Services"){
+				echo "navigation__link--currentpage";}?>">Services</a>
+
+			<a href="fiona-contact.php" class = "navigation__link <?php 
+			if ($thisPage == "Contact"){
+				echo "navigation__link--currentpage";}?>">Contacts</a>
+
+			<a href="Fiona-booking.php" class = "navigation__link navigation__link--book">Book an appointment</a>
+
 		</div>
 </div>	
 
-
-
-
-
-
-
-
-<!DOCTYPE html>
-<html>
-
-<div id="FionaNavigation">
-<ul> 
-
-<li<?php if ($thisPage=="Home")
-echo " id=\"currentpage\""; ?>>
-<a href="Fiona-home.php"></a></li>
-
-<li<?php if ($thisPage=="Services")
-echo " id=\"currentpage\""; ?>>
-<a href="Fiona-index.php"></a></li>
-
-<li<?php if ($thisPage=="Masseurs")
-echo " id=\"currentpage\""; ?>>
-<a href="massage-team.php"></a></li>
-
-<li<?php if ($thisPage=="Contact")
-echo " id=\"currentpage\""; ?>>
-<a href="Fiona-Contact.php"></a></li>
-
-
-</ul>
-</div>
+</body>
 </html>
+
+
+
+
+

@@ -74,18 +74,20 @@
 		<div class = "attributes_scroll">
 		<img src ="index-04.png"> 
 
-		<div class = "attributes_text">
-		<p> We understand that people rarely hav time to go to the massage salon during the working day or week... So we work 24/7, onm site and on the weekends as well.
-		</p>
-		</div>
+			<div class = "attributes_text">
+			<p> We understand that people rarely hav time to go to the massage salon during the working day or week... So we work 24/7, onm site and on the weekends as well.
+			</p>
+			</div>
 		</div>
 	</div>	
 
 </div>	
 	
-	<div class = "picturebreakContainer">
-	</div>
+	<div class = "picturebreak">
 
+		<img src = "index-05.jpg"> 
+	</div>
+		
 <?php
 	include 'listservices.php';
 	?>
